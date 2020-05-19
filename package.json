@@ -2,9 +2,9 @@
     "name": "management",
     "version": "1.0.0",
     "scripts": {
-        "client": "cd client && npm start",
+        "client": "cd client && yarn start",
         "sever": "nodemon sever.js",
-        "dev": "concurrently --kill-on-fail \" npm sever\" \"npm client\""
+        "dev": "concurrently --kill-on-fail \"yarn sever\" \"yarn client\""
     },
     "dependencies": {
         "body-parser": "^1.18.3",
