@@ -3,12 +3,13 @@
     "version": "1.0.0",
     "scripts": {
         "client": "cd client && yarn start",
-        "sever": "nodemon sever.js",
-        "dev": "concurrently --kill-on-fail \"yarn sever\" \"yarn client\""
+        "server": "nodemon server.js",
+        "dev": "concurrently --kill-on-fail \"yarn server\" \"yarn client\""
     },
     "dependencies": {
         "body-parser": "^1.18.3",
         "express": "^4.16.4",
+        "mysql": "^2.18.1",
         "nodemon": "^2.0.4"
     },
     "devDependencies": {
